@@ -1,0 +1,71 @@
+h1{
+  width: 600px;
+  margin: 0 auto;
+  font-family: Comic Sans MS;
+  background-color: gainsboro;
+  padding-left: 200px;
+  border-radius: 15px;
+}
+
+h2{
+  color: #999;
+  font-family: Gill Sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 2.2rem;
+  margin: 6px 0 0 20px;
+}
+
+/* .classname for class*/
+/*pixel format*/
+.square {
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  height: 14px;
+  width: 14px;
+  float: left;
+  display: inline-block;
+}
+/*color palette squares*/
+.colorArr{
+width: 40px;
+height: 40px;
+float:left;
+margin: 10px auto;
+border: 3px solid grey;
+border-radius: 15px;
+}
+
+.pickedColor{
+width: 80px;
+height: 40px;
+float:right;
+margin: 10px auto;
+border: 3px solid grey;
+border-radius: 15px;
+}
+
+/*# for id*/
+#canvas{
+width: 800px;
+height: 350px;
+margin: 0 auto;
+}
+
+#palette{
+width: 800px;
+height: 108px;
+margin: 0 auto;
+background-color: gainsboro;
+border-radius: 15px;
+}
+
+#outerContainer {
+ /*background-color: grey;*/
+ border-radius: 15px;
+ width: 1100px;
+ height: 600px;
+ margin: 0 auto;
+ background-image: url(http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/1q/fs/p01qfst4.jpg);
+}
